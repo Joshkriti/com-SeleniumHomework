@@ -63,10 +63,9 @@ public class LoginTest extends BaseTest{
 
         driver.findElement(By.linkText("Log in")).click();
 
-        //driver.findElement(By.xpath("//div[@class='form-fields']/div/span/span[1]"));
-        /*String actualErrorMessage = driver.findElement(By.xpath("//span[contains(text(),'Please enter your email')]")).getText();
-        String expectingErrorMessage = "Please enter your email";
-        Assert.assertEquals("Error message should display", expectingErrorMessage, actualErrorMessage);*/
+        String actualErrorMessage = driver.findElement(By.xpath("//div[@class='returning-wrapper fieldset']/form[1]/div[1]")).getText();
+        String expectingErrorMessage = "Login was unsuccessful. Please correct the errors and try again.";
+        Assert.assertEquals("Error message should display", expectingErrorMessage, actualErrorMessage);
 
     }
 
