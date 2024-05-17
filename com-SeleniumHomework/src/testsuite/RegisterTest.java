@@ -41,7 +41,7 @@ public class RegisterTest extends BaseTest {
 
         driver.findElement(By.name("LastName")).sendKeys("Kanji");
 
-        driver.findElement(By.id("Email")).sendKeys("Komalkanji.13@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("Komalkanji.05@gmail.com");
 
         driver.findElement(By.id("Password")).sendKeys("Kom123456");
 
