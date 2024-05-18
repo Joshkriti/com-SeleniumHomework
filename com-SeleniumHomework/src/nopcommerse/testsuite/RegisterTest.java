@@ -1,4 +1,4 @@
-package testsuite;
+package nopcommerse.testsuite;
 
 import browserfactory.BaseTest;
 import org.junit.Assert;
