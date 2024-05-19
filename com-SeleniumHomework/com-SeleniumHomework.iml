@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../Hamcrest/hamcrest-2.2.jar!/" />
@@ -16,7 +16,20 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../Junit/junit-4.13.2.jar!/" />
@@ -28,14 +41,34 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" />
+          <root url="file://$MODULE_DIR$/../../../Softwere/Selenium Package/selenium-java-4.20.0" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" />
+          <root url="file://$MODULE_DIR$/../../../Softwere/Selenium Package/selenium-java-4.20.0" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../../Selenium Package/selenium-java-4.20.0" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../Softwere/Selenium Package/selenium-java-4.20.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../Softwere/Selenium Package/selenium-java-4.20.0" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Softwere/Hamcrest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../Softwere/Hamcrest" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../Softwere/Junit" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../../Softwere/Junit" recursive="false" />
       </library>
     </orderEntry>
   </component>
