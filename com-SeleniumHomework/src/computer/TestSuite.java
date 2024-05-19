@@ -4,9 +4,7 @@ import browserfactory.BaseTest;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class TestSuite extends BaseTest {
@@ -51,11 +49,7 @@ public class TestSuite extends BaseTest {
         select.selectByVisibleText("Name: A to Z");
 
         //2.4 Click on "Add To Cart"
-            Actions actions = new Actions(driver);
-            for(int i =0; i<=2; i++){
-                actions.sendKeys(Keys.PAGE_DOWN).build().perform();
-            }
-        driver.findElement(By.xpath("//div[@class='add-info']/div[2]/button[1]")).click();
+        driver.findElement(By.className("button-2 product-box-add-to-cart-button")).click();
 
 
 
